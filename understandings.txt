@@ -1,0 +1,4 @@
+predict.py is treating the data as label-less. but, the current version of dataset is having labels.
+
+Labels are not accurately assigned to the texts in the dataset. for example, the first data in the dev.tsv describes
+that the user is indicating that he/she is going to suicide. But it still has the label 'Moderate'.
